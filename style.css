@@ -1,1 +1,100 @@
-p{color:blue;}
+body{background-color: lightblue;}
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+body
+{
+  background-color: coral;
+}
+h1
+{
+  background-color: #92a8d1;
+}
+div
+{
+  background-color: rgb( 201,76,76 );
+}
+p
+{
+  background-color: rgba( 201,76,76,0.3 );
+}
+div
+{
+  background-color: #fefbd8;
+}
+body
+{
+  background-image: url("img.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-origin: content-box;
+}
+body
+{
+  border: 10px dotted black;
+  padding: 15px;
+  background: pink;
+  background-clip: padding-box;
+}
+h1 {
+  border: 5px solid red;
+}
+
+h2 {
+  border: 4px dotted blue;
+}
+
+div {
+  border: double;
+}
+h1 {
+  border-block: 5px solid;
+   border-inline: 5px solid red;
+   border-inline-end-style:solid;
+   border-inline-end-color:yellow;
+   border-inline-start-width: solid;
+   border-inline-start-color:black;
+   border-top-color:coral;
+   border-top-left-radius: 25px;
+   border-top-right-radius: 25px;
+   border-top-style:dotted;
+   border-top-width: 5px;
+}
+
+h2 {
+  border-block: 4px dotted blue;
+  border-left-color: blue;
+  border-left-style: solid;
+  border-left-width:5px;
+  border-radius: 25px;
+  border-right-color: red;
+  border-right-style: solid;
+}
+  
+h3 {
+  border-block-end-style: dotted;
+  border-block-end-color: yellow;
+  border-block-end-width: 10px;
+
+  
+  border-block-start-style: dotted ;
+  border-block-start-color: blueviolet;
+  border-block-start-width: 10px;
+}
+h4 {
+  border-style: solid;
+  border-bottom-color: red;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-style: dotted;
+}
+table{
+  border-style: solid;
+  border-color: red;
+  border-style: 1px;
+  border-collapse: separate;
+
+}
